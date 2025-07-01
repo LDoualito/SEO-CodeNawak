@@ -1,0 +1,45 @@
+# Robots.txt pour codenawak.com
+# Site de programmation rétro années 2000
+
+User-agent: *
+Allow: /
+
+# Autoriser les ressources importantes
+Allow: /css/
+Allow: /js/
+Allow: /script.js
+Allow: /images/
+Allow: /api/placeholder/
+Allow: /downloads/
+
+# Bloquer les fichiers inutiles pour le SEO
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.tmp
+Disallow: /temp/
+Disallow: /backup/
+
+# Autoriser les bots des réseaux sociaux
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Encourager l'indexation des pages principales
+Allow: /index.html
+Allow: /tutoriels-codenawak.html
+Allow: /telechargements-codenawak.html
+Allow: /blackjack.html
+
+# Indiquer l'emplacement du sitemap
+Sitemap: https://codenawak.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge serveur
+Crawl-delay: 1
+
+# Informations de contact (optionnel)
+# Contact: webmaster@codenawak.com
