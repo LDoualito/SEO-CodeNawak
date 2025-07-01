@@ -18,7 +18,6 @@ Site web rétro dédié à l'apprentissage de la programmation dans l'esprit des
 ## 📊 Fonctionnalités
 - Tutoriels programmation rétro
 - Section téléchargements
-- Jeu Blackjack bonus
 - Optimisations SEO complètes
 
 ## 🎯 SEO Implémenté
